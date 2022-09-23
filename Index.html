@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/186232ee02.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Zulu's Portfolio</title>
+  </head>
+  <body>
+    <section class="box">
+      <div class="text">
+        <h1>Hi, I'm <span>Zulu</span></h1>
+        <p>
+          A Front-end Developer who specializies in building interactive websites that <br>run across different platforms <br>and devices.
+        </p>
+      </div>
+    </section>
+    <section class="about">
+      <div class="main">
+        <img class="about-img" src="Images/resize.jpg" alt="" />
+        <div class="about-text">
+          <h1>ABOUT ME</h1>
+          <h2>“She is the Past. The Past is not my concern. The future is no longer my concern either”-Thomas Shelby(The Peaky Blinders)</h2>
+          <p>
+            A Front-end developer based in Abuja, Nigeria with a background in Law and People Management (International Human Resources).Last year I decided to step away from the Legal field to challenge myself learn more about building responsive and interactive web pages.
+            As a Web  developer,I enjoy turning complex designs into simple beautiful and intuitive designs.<br>My goal is to always build applications that are scalable and efficient, while also providing engagaing pixel-perfect user experience. <br>When I'm not sitting in front of a Computer screen, You will find me catching up on my Reading, Posting film reviews on my favorite Tv-show/Film on Tik-Tok Or Sleeping.</p>
+          <a
+            href="https://drive.google.com/file/d/1svhnLwC3UAxef7SegNxS6qvMe_R8fGyw/view?usp=sharing"
+            ><button type="button">VIEW RESUME</button></a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="project-box">
+      <h1>projects</h1>
+      <div class="project-container">
+        <div class="project-card">
+          <img class="project-image" src="Images/ice cream.jpg" alt="" />
+          <h3> Ice-Cream Shop Landing Page</h3>
+          <p class="subtext"> A  Full Modern Responsive  Ice Cream Shop Full website built with Html, CSS and Javascript.</p>
+          <hr />
+          <p class="subtext"><a  class="project-link" href="https://stunning-baklava-6a662b.netlify.app/">View Here</p></a>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="Images/sticky notes.jpg" alt="" />
+          <h3>Sticky Notes App</h3>
+          <p class="subtext"> A Sticky Notes App that allows you to type out your To-do list and saves your notes for later.Built with HTML, CSS and Javascript</p>
+          <hr />
+          <p class="subtext"><a  class="project-link" href="https://6321965f4033ea479eff7dfb--thriving-dodol-a8cea4.netlify.app/">View Here</p></a>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="Images/tesla.jpg" alt="" />
+          <h3>Tesla Roadster Clone Website</h3>
+          <p class="subtext"> A Full Modern Responsive Tesla Roadster Website Clone with on scroll animations and responsive sidebars.Using HTML, CSS, JS and AOS JS.</p>
+          <hr />
+          <p class="subtext"><a class="project-link" href="https://github.com/ZulurangK/Tesla-Roadster-Website-clone">View Here</p></a>
+        </div>
+        <div class="project-card">
+          <img class="project-image" src="Images/trivia game.jpg" alt="" />
+          <h3>TRIVIA APP </h3>
+          <p class="subtext">  A Fun Trivia App game built with Trivia API, JavaScript, HTML and CSS.</p>
+          <hr />
+          <p class="subtext"><a  class="project-link" href="https://gleeful-kitten-d782d3.netlify.app/">View Here</p></a>
+        </div>
+      </div>
+    </section>
+    <section class="contact-container" id="contact">
+      <h2 class="heading">Contact Me</h2>
+      <form action="" class="contact-form" id="form">
+        <input type="name" id="name" name="name" placeholder="Name" class="name" required />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          name="email"
+          placeholder="Email....."
+          class="email"
+          required
+        />
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Message Here......."
+          class="message"
+          required
+        ></textarea>
+        <input type="submit" value="Send" class="send-btn" id="button" />
+      </form>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <h3>Socials</h3>
+        <p>Let's connect!</p>
+        <ul class="socials">
+          <li>
+            <a href="https://github.com/ZulurangK/Zulurang"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/miss-zulurang-kyana-kanwai-mcmi/"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/ZKanwai/"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+  emailjs.init('4DRsTIrUPmck4Jp-F')
+</script>
+</html>
